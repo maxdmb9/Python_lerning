@@ -1,3 +1,5 @@
-print("Hello world!")
-print("Hello Windows")
-print("Hi Linux")
+message = "Hello Python world!"
+print(message)
+
+message = "Hello Python Crash Course world!"
+print(message)
