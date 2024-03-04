@@ -1,3 +1,4 @@
+#Работа со строчными и прописными буквами
 name = "ada lovelace" 
 print(name.title()) 
 print(name.upper()) 

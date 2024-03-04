@@ -1,3 +1,4 @@
+#выводит 2 сообщения
 message = "Hello Python world!"
 print(message)
 

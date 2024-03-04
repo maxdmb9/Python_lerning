@@ -1,3 +1,4 @@
+#Работа с отступами и переносами текста
 name = " max "
 print(name)
 print(name.lstrip())

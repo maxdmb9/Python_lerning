@@ -1,3 +1,4 @@
+#Это одни из первых сообщений на Питоне
 message ="Привет мир"
 print(message)
 print(message)
