@@ -28,7 +28,29 @@ print(motorcycles)
 motorcycles = ['honda','yamaha','suzuki']
 print(motorcycles)
 
-print("Hear")
 popped_motorcycles = motorcycles.pop()
 print(motorcycles)
 print(popped_motorcycles)
+
+motorcycles = ['yava','izh','ural']
+
+last_owned =  motorcycles.pop()
+print("The last motorcycle i owned was a " + last_owned.title() + ".")
+
+motorcycles = ['dnepr', 'oppozit','harley_davidson']
+
+first_owned = motorcycles.pop(1)
+print("The first motocycle i owned was a " + first_owned.title() + ".")
+
+motorcycles = ['honda','yamaha','suzuki','ducati']
+print(motorcycles)
+
+motorcycles.remove("ducati")
+print(motorcycles)
+
+motorcycles = ['honda','yamaha','suzuki','ducati']
+print(motorcycles)
+too_expensive = 'ducati'
+motorcycles.remove(too_expensive)
+print(motorcycles)
+print("\nA " + too_expensive.title() + " is too expensive for me.")
