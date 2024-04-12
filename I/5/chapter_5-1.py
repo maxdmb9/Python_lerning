@@ -1,5 +1,5 @@
-pizzas = ['овощи', 'сыр', 'морепродукты']
-for pizza in pizzas:
-    print(pizza)
-    print("Я очень люблю " + pizza +" пиццу")
-print("I really love pizza!")
+car = 'subaru'
+print("Is car == 'subaru'? I predict True.")
+print(car == 'subaru')
+print("\nIs car == 'audi'? I predict False.")
+print(car  == 'audi')
