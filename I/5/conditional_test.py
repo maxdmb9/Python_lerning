@@ -35,4 +35,11 @@ if c <= a:
     print(c)   
 
 if d>a or c<=d:
-    print('yes')    
+    print('yes')  
+
+if a<b or c>d:
+    print('or right')
+
+if a<b and d>a:
+    print('win and')    
+     
