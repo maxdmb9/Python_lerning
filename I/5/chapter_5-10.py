@@ -1,11 +1,15 @@
 #Проверка имен пользователей на уникальность.
-current_users = ['Yana','vika','Maria','lena','katya','nina','galya','lida']
+current_users = ['Yana','vika','maria','lena','katya','nina','galya','lida']
 
-new_users = ['vera','yana','olya','maria','kristina','dasha','mitra','leya']
+new_users = ['vera','yana','olya','Maria','kristina','dasha','mitra','leya']
 
+copy_current_users = [name.lower() for name in current_users]
+copy_new_users = [name.lower() for name in new_users]
 
-for current_user in current_users:
-    if current_user.lower() not in new_users:
-        print("You can use this name " + current_user + ".")
+for name in copy_new_users:
+    if name not in copy_current_users:
+        print("You can use this name " + name + ".")
     else:
-        print("This name " + current_user + " is busy")    
+        print("This name " + name + " is busy")    
+
+
