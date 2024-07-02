@@ -11,5 +11,3 @@ for name in copy_new_users:
         print("You can use this name " + name + ".")
     else:
         print("This name " + name + " is busy")    
-
-
