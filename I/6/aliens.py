@@ -56,6 +56,3 @@
 
 # del alien_0['points']
 # print(alien_0)
-
-# Словарь с однотипными объектами
-#hi
