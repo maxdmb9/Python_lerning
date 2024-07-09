@@ -8,8 +8,6 @@ favorite_languages = {
 # Добавил людей в список    
 people = ['jon', 'emma', 'sarah', 'jen']
 for name in favorite_languages.keys():
-    # print("Спасибо что участвовали в опросе " + name.title())
-
     if name in people:
         print("Спасибо что участвовали в опросе " + name.title())
 
