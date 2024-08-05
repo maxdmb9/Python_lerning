@@ -72,7 +72,7 @@
 # Создание пустого списка для хранения пришельцев.
 aliens = []
 # Создание 30 зеленых пришельцев.
-for alien_number in range(30):
+for alien_number in range(30):   # В alien_number хранится кол-во раз(range)
     new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
     aliens.append(new_alien)
 
